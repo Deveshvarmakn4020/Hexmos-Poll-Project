@@ -1,0 +1,11 @@
+POST http://localhost:8000/polls
+Content-Type: application/json
+
+{
+   "Question": "Who is the G.O.A.T footballer",
+   "OptionVote": {
+       "Messi": "0",
+       "CR7": "0"
+   },
+   "Tags": ["football", "sports"]
+}
